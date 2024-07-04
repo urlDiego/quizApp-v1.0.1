@@ -88,9 +88,25 @@ body {
 }
 
 .correct {
-    background: #14873c;
+    background: #00ff11;
 }
 
 .incorrect {
-    background: #cf2626;
+    background: #966b6b;
+}
+
+#difficulty {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin: 10px 0 10px 0;
+}
+
+#difficulty option {
+    text-align: center;
+    display: flex;
+    padding: 15px;
+    color: #3a3838;
+    border: none;
+    outline: none;
 }
